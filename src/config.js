@@ -8,7 +8,7 @@ export const site = {
     "We design and build fast, good-looking websites for small businesses, so your customers find you and get what they need without a bump.",
   email: "hello@example.com", // <-- put YOUR email
   // Free contact form: sign up at formspree.io, create a form, paste its ID here (see SETUP.md)
-  formspreeId: "YOUR_FORM_ID",
+  formspreeId: "xrppnbyb",
 
   services: [
     { title: "New websites", text: "A custom site built from scratch, ready for phones, tablets and laptops." },
