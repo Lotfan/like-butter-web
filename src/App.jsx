@@ -16,22 +16,16 @@ function Nav() {
 }
 
 function Hero() {
-  // Each drip is [x, height]. Change the numbers to change the drips.
-  const drips = [[120, 70], [380, 50], [640, 90], [930, 60], [1090, 40]];
   return (
     <section className="hero" id="top">
-      <h1>{site.headline}</h1>
-      <p>{site.intro}</p>
-      <div className="hero-actions">
-        <a className="btn" href="#contact">Start your project</a>
-        <a className="link" href="#work">See our work</a>
+      <div className="panel">
+        <h1>{site.headline}</h1>
+        <p>{site.intro}</p>
+        <div className="hero-actions">
+          <a className="btn" href="#contact">Start your project</a>
+          <a className="link" href="#work">See our work</a>
+        </div>
       </div>
-      <svg className="drips" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true">
-        <rect x="0" y="0" width="1200" height="30" />
-        {drips.map(([x, h], i) => (
-          <rect key={x} x={x} y="10" width="36" height={h} rx="18" style={{ animationDelay: `${i * 0.18}s` }} />
-        ))}
-      </svg>
     </section>
   );
 }
@@ -54,6 +48,7 @@ function Services() {
 
 function Work() {
   return (
+    <div className="band">
     <section className="section" id="work">
       <h2>Recent work</h2>
       <div className="work">
@@ -65,6 +60,7 @@ function Work() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
 

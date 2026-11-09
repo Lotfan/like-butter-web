@@ -11,21 +11,57 @@ export const site = {
   formspreeId: "xrppnbyb",
 
   services: [
-    { title: "New websites", text: "A custom site built from scratch, ready for phones, tablets and laptops." },
-    { title: "Redesigns", text: "Your site is slow or dated? We rebuild it so it feels fresh and loads fast." },
-    { title: "Care plans", text: "Updates, fixes and small changes every month, so you never get stuck." },
+    {
+      title: "New websites",
+      text: "A custom site built from scratch, ready for phones, tablets and laptops.",
+    },
+    {
+      title: "Redesigns",
+      text: "Your site is slow or dated? We rebuild it so it feels fresh and loads fast.",
+    },
+    {
+      title: "Care plans",
+      text: "Updates, fixes and small changes every month, so you never get stuck.",
+    },
   ],
 
   work: [
-    { name: "Al-Wahab Academy", type: "Online Qaida lessons for kids", color: "#0B0B0B", text: "#E6C35C" },
-    { name: "Your next client", type: "This could be you", color: "#5B4BFF", text: "#FFFFFF" },
-    { name: "Coming soon", type: "Add your own projects here", color: "#FFD93D", text: "#1E1B2E" },
+    {
+      name: "Al-Wahab Academy",
+      type: "Online Qaida lessons for kids",
+      color: "#0B0B0B",
+      text: "#E6C35C",
+    },
+    {
+      name: "Your next client",
+      type: "This could be you",
+      color: "#8FA0C0",
+      text: "#2F3A56",
+    },
+    {
+      name: "Coming soon",
+      type: "Add your own projects here",
+      color: "#EBB93F",
+      text: "#2F3A56",
+    },
   ],
 
   steps: [
-    { title: "We talk", text: "You tell us about your business and what the site needs to do." },
-    { title: "We sketch", text: "You see the design and tell us what to change." },
-    { title: "We build", text: "We turn the design into a real, fast website." },
-    { title: "We launch", text: "Your site goes live on your own domain, and we stay close for support." },
+    {
+      title: "We talk",
+      text: "You tell us about your business and what the site needs to do.",
+    },
+    {
+      title: "We sketch",
+      text: "You see the design and tell us what to change.",
+    },
+    {
+      title: "We build",
+      text: "We turn the design into a real, fast website.",
+    },
+    {
+      title: "We launch",
+      text: "Your site goes live on your own domain, and we stay close for support.",
+    },
   ],
 };
